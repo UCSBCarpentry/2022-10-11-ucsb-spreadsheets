@@ -24,16 +24,19 @@ When working with dates it's also important to remember that functions are guara
 
 One of the other reasons dates can be tricky is that most spreadsheet programs have “useful features” which can change the way dates are displayed - but not stored. The image below demonstrates some of the many date formatting options. 
 
-![Many formats, many ambiguities](../fig/dates_1.jpg)
+![Many formats, many ambiguities](../fig/dates_1.jpg) <br>
 
+[Download and make a copy of the file](https://docs.google.com/spreadsheets/d/1OvuGrL9_f7sq2wUZM5aXAvzN4L-SwNL6z_9gUfjXzRk/edit?usp=sharing) if you want to follow this portion along.
 
 You may explore more options available on Google Sheets `(Format> Number> Custom date and time...)`:
 
-![Many formats, many ambiguities-2](../fig/dates_2.jpg)
+![Many formats, many ambiguities-2](../fig/dates_2.jpg) <br>
+
 
 ## Dates stored as integers
 
-The first thing you need to know is that as most spreadsheets programs, Google Sheets stores dates as numbers - see the last column in the above figure. This serial number represents the number of days from December 31, 1899. In the example, July 2, 2014 is stored as the serial number 41822. 
+The first thing you need to know is that as most spreadsheets programs, Google Sheets stores dates as numbers. This serial number represents the number of days from December 31, 1899. But how can you obtain that number for the 10/10/2022 date? We may use the `DATEVALUE` function to obtain that number by typing in and use the autocomplete feature: `=DATEVALUE(F2)`, and we will get 44844. As for any other function in spreadsheets, we can reuse that and apply to the cells bellow.  
+
 
 > ## More on Google Sheets Dates
 > 
@@ -51,14 +54,16 @@ set of informants every ninety days for a year.
 In our example above, in a new cell you could type:
 
 ~~~
-=B2+90
+=B2+97
 ~~~
 {: .code}
 
 And it would return
 
 ~~~
-30-Sep
+15-Jan
+
+The format will follow the cell of reference in the formula. Test it if you would like with other cells. 
 ~~~
 {: .output}
 
