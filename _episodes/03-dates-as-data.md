@@ -35,7 +35,8 @@ You may explore more options available on Google Sheets `(Format> Number> Custom
 
 ## Dates stored as integers
 
-The first thing you need to know is that as most spreadsheets programs, Google Sheets stores dates as numbers. This serial number represents the number of days from December 31, 1899. But how can you obtain that number for the 10/10/2022 date? We may use the `DATEVALUE` function to obtain that number by typing in and use the autocomplete feature: `=DATEVALUE(F2)`, and we will get 44844. As for any other function in spreadsheets, we can reuse that and apply to the cells bellow.  
+The first thing you need to know is that as most spreadsheets programs, Google Sheets stores dates as numbers. Because DATE values are stored as integers, you can use them in arithmetic expressions. For example, you can subtract a DATE value from another DATE value.
+This serial number represents the number of days from December 31, 1899. But how can you obtain that number for the 10/10/2022 date? We may use the `DATEVALUE` function to obtain that number by typing in and use the autocomplete feature: `=DATEVALUE(F2)`, and we will get 44844. As for any other function in spreadsheets, we can reuse that and apply to the cells bellow. 
 
 
 > ## More on Google Sheets Dates
@@ -44,7 +45,8 @@ The first thing you need to know is that as most spreadsheets programs, Google S
 > - DATE will silently recalculate numeric dates which fall outside of valid month or day ranges. For example, DATE(1969,13,1), which specifies the illegal month 13, will create a date of 1/1/1970. Similarly, DATE(1969,1,32), which specifies the non-existent 32nd day of January, will create a date of 2/1/1969.
 > - Google Sheets uses the 1900 date system. The first date is 1/1/1900.
 > - Between 0 and 1899, Google Sheets adds that value to 1900 to calculate the year. 
-> - For years less than 1900 or greater than 10,000, Google Sheets will return the #NUM! error value 
+> - For years less than 1900 or greater than 10,000, Google Sheets will return the #NUM! error value
+> -  
 {: .callout}
 
 Using functions we can  add days, months or years to a given date.
