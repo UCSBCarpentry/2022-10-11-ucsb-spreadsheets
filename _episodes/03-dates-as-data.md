@@ -24,12 +24,12 @@ When working with dates it's also important to remember that functions are guara
 
 One of the other reasons dates can be tricky is that most spreadsheet programs have “useful features” which can change the way dates are displayed - but not stored. The image below demonstrates some of the many date formatting options. 
 
-![Many formats, many ambiguities](../fig/excel_dates_1.jpg)
+![Many formats, many ambiguities](../fig/dates_1.jpg)
 
 
 You may explore more options available on Google Sheets `(Format> Number> Custom date and time...)`:
 
-![Many formats, many ambiguities-2](../fig/excel_dates_2.jpg)
+![Many formats, many ambiguities-2](../fig/dates_2.jpg)
 
 ## Dates stored as integers
 
