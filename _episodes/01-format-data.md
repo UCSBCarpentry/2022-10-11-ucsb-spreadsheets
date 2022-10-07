@@ -136,7 +136,7 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 >
 > We're going to take a messy version of the SAFI data and describe how we would clean it up.
 >
-> 1. Download the [SAFI messy data](https://docs.google.com/spreadsheets/d/1rW_ivWakwSElPUHvZ5AjLSQDMtgweAb5/edit?usp=sharing&ouid=101311538260511928101&rtpof=true&sd=true).
+> 1. Download the [SAFI messy data](https://docs.google.com/spreadsheets/d/1rAr1yV0duCbItp_ECSS702nXbi4lMvD8/edit?usp=sharing&ouid=101311538260511928101&rtpof=true&sd=true).
 > 2. Open up the data in Google Sheets and make a copy, renaming it with your last name (e.g., SAFI-messy-Curty), to ensure we all working on our individual copies and that we are not modifying the original (raw) data. 
 > 3. Notice that there are two tabs. Two researchers conducted the interviews,
 >    one in Mozambique and the other in Tanzania. They both structured their
@@ -146,7 +146,7 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 >    Discuss the steps you would need to take to clean up the two tabs, and to
 >    put them all together in one spreadsheet.
 >
-> After you follow these four steps, in pairs, take a look at the main problems you identify with this dataset and discuss how you could fix these issues. 
+> After you follow these four steps, in pairs, take a look at the main problems you identify with this dataset and discuss how you could fix the issues you have identified. 
 >
 > > ## Solution
 > >
@@ -228,16 +228,16 @@ as part of your research.
 
 > ## Exercise
 >
-> Download a [clean version of this dataset](https://ndownloader.figshare.com/files/11492171) and open the file
-> with in Google Sheets. This data has many more variables that were not
+> Download a clean version of this dataset [SAFI_clean.csv](https://drive.google.com/file/d/1QTK5aTADx2t1r8IAflj4ERLwdvFJkgoc/view?usp=sharing) and open the file
+> in Google Sheets. This data has many more variables that were not
 > included in the messy spreadsheet and is formatted according to tidy data
 > principles.
 >
 > Discuss this data with a partner and make a list of some of the types of
 > metadata that should be recorded about this dataset. It may be helpful to
-> start by asking yourself, "What is not immediately obvious to me about this
-> data? What questions would I need to know the answers to in order to analyze
-> and interpret this data?"
+> start by asking yourself: 1) "What is not immediately obvious to me about this
+> data? and, 2) What questions would I need to know the answers to in order to analyze
+> and interpret this data?
 >
 > > ## Solution
 > >
