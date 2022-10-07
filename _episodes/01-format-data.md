@@ -55,13 +55,13 @@ you started with. In order to be able to reproduce your analyses or figure out
 what you did when Reviewer #3 asks for a different analysis, you should
 
 - create a new file or tab with your cleaned or analyzed data. Don't modify
-the original dataset, or you will never know where you started!
+the original dataset, or you will never know where you started! Always keep a copy of the raw data as read-only!
 - keep track of the steps you took in your clean up or analysis. You should track
 these steps as you would any step in an experiment. You can
 do this in another text file, or a good option is to create a new tab in your spreadsheet
 with your notes. This way the notes and data stay together.
 
-Put these principles in to practice today during the exercises.
+Put these principles into practice not only during this workshop, but as part of your daily work.
 
 
 ### Structuring data in spreadsheets
@@ -70,15 +70,14 @@ Put these principles in to practice today during the exercises.
 The cardinal rules of using spreadsheet programs for data:
 
 1. Put all your variables in columns - the thing you're measuring,
-   like 'weight' or 'temperature'.
+   like 'weight', 'citation counts', or 'temperature'.
 2. Put each observation in its own row.
 3. Don't combine multiple pieces of information in one
    cell. Sometimes it just seems like one thing, but think if that's
    the only way you'll want to be able to use or sort that data.
-4. Leave the raw data raw - don't change it!
+4. Again, leave the raw data raw - don't edit it! Securely store a copy of it. 
 5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. This
-   ensures that anyone can use the data, and is required by
-   most data repositories.
+   ensures that anyone can re-use the data and open it in many software applications without required dependencies. 
 
 For instance, we're going to be working with data from a study of
 agricultural practices among farmers in two countries in eastern
@@ -94,7 +93,8 @@ If they were to keep track of the data like this:
 
 ![multiple-info example](../fig/multiple-info.png)
 
-the problem is that number of livestock and type of livestock are in
+What challenges they would experience?
+The problem is that number of livestock and type of livestock are in
 the same field. So, if they wanted to
 look at the average number of livestock owned, or the average number of each type
 of livestock,
@@ -118,8 +118,8 @@ later in this workshop.
 >> The data used in these lessons are taken from interviews of farmers in two
 > countries in eastern sub-Saharan Africa (Mozambique and Tanzania). These
 > interviews were conducted between November 2016 and June 2017 and probed
-> household features (e.g. construction materials used, number of household
-> members), agricultural practices (e.g. water usage), and assets (e.g. number
+> household features (e.g., construction materials used, number of household
+> members), agricultural practices (e.g. water usage), and assets (e.g., number
 > and types of livestock).
 >
 > This is a real dataset, however, it has been simplified for this workshop. If
@@ -137,7 +137,7 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 > We're going to take a messy version of the SAFI data and describe how we would clean it up.
 >
 > 1. Download the [SAFI messy data](https://docs.google.com/spreadsheets/d/1rW_ivWakwSElPUHvZ5AjLSQDMtgweAb5/edit?usp=sharing&ouid=101311538260511928101&rtpof=true&sd=true).
-> 2. Open up the data in Google Sheets and make a copy, renaming it with your last name (e.g., SAFI-messy-Curty), to ensure we all working on our individual copies.
+> 2. Open up the data in Google Sheets and make a copy, renaming it with your last name (e.g., SAFI-messy-Curty), to ensure we all working on our individual copies and that we are not modifying the original (raw) data. 
 > 3. Notice that there are two tabs. Two researchers conducted the interviews,
 >    one in Mozambique and the other in Tanzania. They both structured their
 >    data tables in a different way. Now, you're the person in charge of this
@@ -146,11 +146,7 @@ page](http://www.datacarpentry.org/socialsci-workshop/data).
 >    Discuss the steps you would need to take to clean up the two tabs, and to
 >    put them all together in one spreadsheet.
 >
-> **Important** Do not forget our first piece of advice, to create a new file
-> (or tab) for the cleaned data, never modify your original (raw) data.
->
-> After you go through this exercise, we'll discuss as a group what was wrong
-> with this data and how you would fix it.
+> After you follow these four steps, in pairs, take a look at the main problems you identify with this dataset and discuss how you could fix these issues. 
 >
 > > ## Solution
 > >
@@ -232,9 +228,8 @@ as part of your research.
 
 > ## Exercise
 >
-> Download a [clean version of this
-> dataset](https://ndownloader.figshare.com/files/11492171) and open the file
-> with your spreadsheet program. This data has many more variables that were not
+> Download a [clean version of this dataset](https://ndownloader.figshare.com/files/11492171) and open the file
+> with in Google Sheets. This data has many more variables that were not
 > included in the messy spreadsheet and is formatted according to tidy data
 > principles.
 >
