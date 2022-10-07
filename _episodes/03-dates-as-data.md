@@ -14,19 +14,22 @@ keypoints:
 
 ## Date formats in spreadsheets
 
-Dates in spreadsheets are often stored in a single column. 
-
-While this seems like a logical way to record dates when you are entering them, or visually reviewing data, it's not actually a best practice for preparing data for analysis.
+Dates in spreadsheets are often stored in a single column. While this seems like a logical way to record dates when you are entering them, or visually reviewing data, it's not actually a best practice for preparing data for analysis.
 
 When working with data, your goal is to have as little ambiguity as possible. Ambiguity can creep into your data when working with dates when there are regional variations either in your observations and when you or your team might be working with different versions or suites of software products (e.g., Google Sheets, LibreOffice, Microsoft Excel, Gnumeric).
 
-To avoid ambiguity between regional differences in date formatting and compatibility across spreadsheet software programs, a good practice is to divide dates into components in different columns - DAY (DD), MONTH (MM), and YEAR (YYYY). 
+To avoid ambiguity between regional differences in date formatting and compatibility across spreadsheet software programs, a good practice is to divide dates into components in different columns - DAY (DD), MONTH (MM), and YEAR (YYYY).  
 
 When working with dates it's also important to remember that functions are guaranteed to be compatible only within the same family of software products. If you need to export your data and conserve the timestamps, you are better off handling dates using the ISO format we will cover in a bit.
 
 One of the other reasons dates can be tricky is that most spreadsheet programs have “useful features” which can change the way dates are displayed - but not stored. The image below demonstrates some of the many date formatting options. 
 
 ![Many formats, many ambiguities](../fig/excel_dates_1.jpg)
+
+
+You may explore more options available on Google Sheets `(Format> Number> Custom date and time...)`:
+
+![Many formats, many ambiguities-2](../fig/excel_dates_2.jpg)
 
 ## Dates stored as integers
 
