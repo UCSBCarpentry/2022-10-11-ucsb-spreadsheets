@@ -54,16 +54,16 @@ set of informants every ninety days for a year.
 In our example above, in a new cell you could type:
 
 ~~~
-=B2+97
+=B2+90
 ~~~
 {: .code}
 
 And it would return
 
 ~~~
-15-Jan
+8-Jan
 
-The format will follow the cell of reference in the formula. Test it if you would like with other cells. 
+The format will follow the cell of reference in the formula. Test it if you would like to see the results for other cells. 
 ~~~
 {: .output}
 
