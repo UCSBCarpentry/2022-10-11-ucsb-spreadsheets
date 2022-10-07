@@ -19,7 +19,7 @@ free of errors.
 
 ## Spreadsheet Encoding
 
-One issue you may encounter when dealing with Spreadsheets is files with different encoding. As with other text files, a CSV file has a character encoding that determines how characters are stored. The de facto standard today is to use Unicode (UTF-8), which supports all the alphabets of the world and lots of other characters like technical symbols and emojis. Unfortunately, Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having excel automatically open it), you can have unreadable data, and even possible data corruption. To overcome these issues, Wwen you import a file into Google Sheets it automatically converts the contents to UTF-8, as are any downloaded sheets.
+One issue you may encounter when dealing with Spreadsheets is files with different encoding. As with other text files, a CSV file has a character encoding that determines how characters are stored. The de facto standard today is to use Unicode (UTF-8), which supports all the alphabets of the world and lots of other characters like technical symbols and emojis. Unfortunately, Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having excel automatically open it), you can have unreadable data, and even possible data corruption. To overcome these issues, when you import a file into Google Sheets it automatically converts the contents to UTF-8, as are any downloaded sheets.
 
 **FIXME ADD EXAMPLE**
 
@@ -89,7 +89,7 @@ This function is instructing Google Sheets to give you a test result if the G2 c
 
 > ## Challenge
 > How could you expand this formula to only consider integers within a specific range (e.g., 0-9 rooms)?
-> 
+> **FIXME**
 {: .challenge}
 
 > ## Exercise
@@ -175,11 +175,6 @@ You may also check version histories for the entire document by either clicking 
 ### Protecting Sheets and Ranges
 
 ### Setting up to get notifications about changes
-
-
-
-
-
 
 
 {% include links.md %}
