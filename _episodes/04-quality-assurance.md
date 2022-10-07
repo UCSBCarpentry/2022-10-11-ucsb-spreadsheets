@@ -87,7 +87,7 @@ Let's say we want to determine that we will only accept integers for the column 
  
 This function is instructing Google Sheets to give you a test result if the G2 column has an integer number or not. If any decimal numbers are entered you will get a warning.
 
-> ## Challenge
+> ## Optional Challenge
 > How could you expand this formula to only consider integers within a specific range (e.g., 0-9 rooms)?
 > **FIXME**
 {: .challenge}
