@@ -82,10 +82,10 @@ Nevertheless it is important to be aware of the limitations these data may prese
 > [Head First Excel](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694/ref=sr_1_1?ie=UTF8&qid=1491594584&sr=8-1&keywords=head+first+excel), published by O'Reilly.
 {: .callout}
 
-> ## Exercise:
-> - How many people have used spreadsheets in their research?
-> - How many people have accidentally done something that made them
-> frustrated or sad?
+> ## Discussion:
+> - How often do you use spreadsheets?
+> - For what purposes?
+> - Where there times you have found using spreadsheets frustrating? Why?
 {: .challenge}
 
 
