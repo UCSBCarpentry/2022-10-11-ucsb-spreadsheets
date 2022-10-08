@@ -14,7 +14,7 @@ keypoints:
 
 ## Date formats in spreadsheets
 
-Dates in spreadsheets are often stored in a single column. While this seems like a logical way to record dates when you are entering them, or visually reviewing data, it's not actually a best practice for preparing data for analysis.
+Dates in spreadsheets are often stored in a single column. While this seems like a logical way to record dates when you are entering them, or visually reviewing data, it's not actually the best practice for preparing data for analysis.
 
 When working with data, your goal is to have as little ambiguity as possible. Ambiguity can creep into your data when working with dates when there are regional variations either in your observations and when you or your team might be working with different versions or suites of software products (e.g., Google Sheets, LibreOffice, Microsoft Excel, Numbers, Gnumeric).
 
@@ -84,8 +84,8 @@ three distinct pieces of data. Separating dates into their component parts
 will avoid this confusion, while also giving the added benefit of allowing you to compare, for
 example data collected in January of multiple years with data collected in February of multiple years.
 
-> ## ISO 8601
-> If you choose keeping all date elements in one cell, to avoid regional conflicts, we recommend you use the International Standard Organization (ISO) 8601 format for dates which represents date and time by starting with the year, followed by the month, the day, the hour, the minutes, seconds and milliseconds. For example, 2020-07-10 15:00:00.000, represents the 10th of July 2020 at 3 p.m. (in local time as there is no time zone offset specified. Remember to note the use of the standard in your dataset documentation.
+> ## If you choose to store dates as a single string, use ISO 8601
+> If you choose keeping all date elements in one cell, to avoid regional conflicts, we recommend you use the International Standard Organization (ISO) 8601 format for dates which represents date and time by starting with the year, followed by the month, the day, the hour, the minutes, seconds and milliseconds. For example, 2020-07-10 15:00:00.000, represents the 10th of July 2020 at 3 p.m. (in local time as there is no time zone offset specified. Such strings will be correctly sorted in ascending or descending order, and following this standard will ensure your dates will be correctly processed by the receiving software. Remember to note the use of the ISO standard in your data documentation.
 {: .callout}
 
 
