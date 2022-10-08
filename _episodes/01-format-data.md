@@ -52,11 +52,11 @@ data.
 When you're working with spreadsheets, during data clean up or analyses, it's
 very easy to end up with a spreadsheet that looks very different from the one
 you started with. In order to be able to reproduce your analyses or figure out
-what you did when Reviewer #3 asks for a different analysis, you should
+what you did when Reviewer #3 asks for a different analysis, you should:
 
-- create a new file or tab with your cleaned or analyzed data. Don't modify
+- Create a new file or tab with your cleaned or analyzed data. Don't modify
 the original dataset, or you will never know where you started! Always keep a copy of the raw data as read-only!
-- keep track of the steps you took in your clean up or analysis. You should track
+- Keep track of all the steps you took in your clean up or analysis. You should track
 these steps as you would any step in an experiment. You can
 do this in another text file, or a good option is to create a new tab in your spreadsheet
 with your notes. This way the notes and data stay together.
@@ -75,11 +75,10 @@ The cardinal rules of using spreadsheet programs for data:
 3. Don't combine multiple pieces of information in one
    cell. Sometimes it just seems like one thing, but think if that's
    the only way you'll want to be able to use or sort that data.
-4. Again, leave the raw data raw - don't edit it! Securely store a copy of it. 
-5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. This
-   ensures that anyone can re-use the data and open it in many software applications without required dependencies. 
+4. Again, leave the raw data raw - don't edit it! Securely store a copy of it as read-only to avoid any undesired modifications to the original data.
+5. Export the cleaned data to a text-based format like CSV (comma-separated values) format. This format is accepted by many software applications without required dependencies. 
 
-For instance, we're going to be working with data from a study of
+For this workshop, we're going to be working with data from a study of
 agricultural practices among farmers in two countries in eastern
 sub-Saharan Africa (Mozambique and Tanzania). Researchers conducted
 interviews with farmers in these countries to collect data on
@@ -130,6 +129,7 @@ later in this workshop.
 > For more information about the dataset and to download it from Figshare, check
 out the [Social Sciences workshop data
 page](http://www.datacarpentry.org/socialsci-workshop/data).
+This is also a good reminder that if you are reusing a dataset or a combination of datasets to generate your own spreadsheet, you should always include citations to correctly attribute data creators. 
 {: .callout}
 
 > ## Exercise
@@ -214,7 +214,7 @@ of particular values.
 Additionally, file or database level metadata describes how files that make up
 the dataset relate to each other; what format are they are
 in; and whether they supersede or are superseded by previous files. A
-folder-level readme.txt file is the classic way of accounting for
+folder-level [README.txt](https://www.library.ucsb.edu/sites/default/files/dls-n03-2021-readme-navy.pdf) file is the classic way of accounting for
 all the files and folders in a project.  
 
 Metadata are most useful when they follow a standard. For example, the
@@ -228,8 +228,8 @@ as part of your research.
 
 > ## Exercise
 >
-> Download a clean version of this dataset [SAFI_clean.csv](https://drive.google.com/file/d/1QTK5aTADx2t1r8IAflj4ERLwdvFJkgoc/view?usp=sharing) and open the file
-> in Google Sheets. This data has many more variables that were not
+> Download a clean version of this dataset [SAFI_clean.csv](https://drive.google.com/file/d/1QTK5aTADx2t1r8IAflj4ERLwdvFJkgoc/view?usp=sharing), open the file
+> in Google Sheets and save a copy in your own Google Drive. This data has many more variables that were not
 > included in the messy spreadsheet and is formatted according to tidy data
 > principles.
 >
