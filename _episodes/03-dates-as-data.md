@@ -16,7 +16,7 @@ keypoints:
 
 Dates in spreadsheets are often stored in a single column. While this seems like a logical way to record dates when you are entering them, or visually reviewing data, it's not actually a best practice for preparing data for analysis.
 
-When working with data, your goal is to have as little ambiguity as possible. Ambiguity can creep into your data when working with dates when there are regional variations either in your observations and when you or your team might be working with different versions or suites of software products (e.g., Google Sheets, LibreOffice, Microsoft Excel, Gnumeric).
+When working with data, your goal is to have as little ambiguity as possible. Ambiguity can creep into your data when working with dates when there are regional variations either in your observations and when you or your team might be working with different versions or suites of software products (e.g., Google Sheets, LibreOffice, Microsoft Excel, Numbers, Gnumeric).
 
 To avoid ambiguity between regional differences in date formatting and compatibility across spreadsheet software programs, a good practice is to divide dates into components in different columns - DAY (DD), MONTH (MM), and YEAR (YYYY).  
 
@@ -79,12 +79,7 @@ Excel spreadsheet it may display as '07/12/1988' (depending on your version of E
 are different ways of formatting the same date.
 
 Different countries also write dates differently. If you are in the UK or Brazil, for example, you will interpret
-the date above as the 7th day of December, however a researcher from the US will interpret the same entry as the 12th day of July. This regional variation is handled automatically by your
-spreadsheet program so that when you are typing in dates they appear as you would expect. If you
-try to type in a US format date into a UK or BR version of Excel, it may or may not be treated as a
-date.
-
-This regional variation is one good reason to treat dates, not as a single data point, but as
+the date above as the 7th day of December, however a researcher from the US will interpret the same entry as the 12th day of July. For Google Sheets, you may adjust the time and locale settings accordingly. But imagine you are working on a project with multiple collaborators from different countries. You can always define rules for data entry, but an easier way to prevent any future issues with dates is to treat them not as a single data point, but as
 three distinct pieces of data. Separating dates into their component parts
 will avoid this confusion, while also giving the added benefit of allowing you to compare, for
 example data collected in January of multiple years with data collected in February of multiple years.
