@@ -41,12 +41,11 @@ This serial number represents the number of days from December 31, 1899. But how
 
 > ## More on Google Sheets Dates
 > 
-> - Inputs to `DATE` must always be numbers - if a string or a reference to a cell containing a string is provided, the `#VALUE!` error will be returned.
+> - Inputs to `DATE` must always be numbers - if a string or a reference to a cell containing a string is provided, an error will be returned.
 > - DATE will silently recalculate numeric dates which fall outside of valid month or day ranges. For example, DATE(1969,13,1), which specifies the illegal month 13, will create a date of 1/1/1970. Similarly, DATE(1969,1,32), which specifies the non-existent 32nd day of January, will create a date of 2/1/1969.
 > - Google Sheets uses the 1900 date system. The first date is 1/1/1900.
 > - Between 0 and 1899, Google Sheets adds that value to 1900 to calculate the year. 
-> - For years less than 1900 or greater than 10,000, Google Sheets will return the #NUM! error value
-> -  
+> - For years less than 1900 or greater than 10,000, Google Sheets will return an error.
 {: .callout}
 
 Using functions we can  add days, months or years to a given date.
