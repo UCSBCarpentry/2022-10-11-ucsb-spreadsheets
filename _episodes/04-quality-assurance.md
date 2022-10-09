@@ -19,14 +19,12 @@ free of errors.
 
 ## Spreadsheet Encoding
 
-One issue you may encounter when dealing with Spreadsheets is files with different encoding. As with other text files, a CSV file has a character encoding that determines how characters are stored. The de facto standard today is to use Unicode (UTF-8), which supports all the alphabets of the world and lots of other characters like technical symbols and emojis. Unfortunately, Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having excel automatically open it), you can have unreadable data, and even possible data corruption. To overcome these issues, when you import a file into Google Sheets it automatically converts the contents to UTF-8, as are any downloaded sheets.
-
-**FIXME ADD EXAMPLE**
+One issue you may encounter when dealing with Spreadsheets is files with different encoding. As with other text files, a CSV file has a character encoding that determines how characters are stored. The de facto standard today is to use Unicode (UTF-8), which supports all the alphabets of the world and lots of other characters like technical symbols and emojis. Unfortunately, Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having Excel or other spreadsheet application automatically open it), you can have unreadable data, and even possible data corruption. To avoid this issue, make sure to save your files as CSV UTF-8.
 
 
 ## Validating data on input
 
-When we input data into a cell of a spreadsheet we are typically not constrained in the type of data we enter.
+When we input data into a cell of a spreadsheet we are typically not constrained in the type of data we enter. But the wrong data type will result in future errors.  
 In any one column, the spreadsheets software will not warn us if we start to enter a mix of text, numbers or dates in different rows.
 Even if we are not facing constraints from the software, as a researcher we often anticipate that all data in one column will be of a certain type.
 It is also possible that the nature of the data contained in the table allows us to place additional restrictions on the acceptable values for cells in a column. For example a column recording age in years should be numeric, greater than 0 and is unlikely to be greater than 120.
