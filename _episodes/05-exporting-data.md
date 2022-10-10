@@ -14,23 +14,10 @@ keypoints:
 
 ## A Note on Data Formats
 
-Storing the data you're going to work with for your analyses in the
-default spreadsheet file format (`*.xls` or `*.xlsx`) - isn't a good idea. Why?
+Storing the data you're going to work with for your analyses file formats such as `*.xls` or `*.xlsx` - isn't a good idea. Why?
 
-- Because it is a proprietary format, and it is possible that in
-  the future, technology won’t exist (or will become sufficiently
-  rare) to make it inconvenient, if not impossible, to open the file.
-
-- Other spreadsheet software may not be able to open files
-  saved in a proprietary format.
-
-- Different versions of the same spreadsshet software may handle data
-  differently, leading to inconsistencies.
-
-- Finally, more journals and grant agencies are requiring you
-  to deposit your data in a data repository, and most of them require more reusable and interoperable formats.
+Even though `*.xls` or `*.xlsx` extensions are considered open standards (ECMA-376, ISO/IEC 29500), they are closely tied to the MS Office Excel application, and these files can contain lots of features that only interpreted by Excel. Also, more journals and grant agencies are requiring youto deposit your data in a data repository, and most of them require more reusable and interoperable formats such as CSV.
   
-- The above points in proprietary software also apply to open data formats used by LibreOffice and Google Sheets native format (`*.Gsheet`). These formats are not static and do not get parsed the same way by different software packages.
   
 As an example of inconsistencies in data storage, do you remember how we talked about how spreasheet programs stores dates earlier? It turns out that 
 there are multiple defaults for different versions of the software, and you can switch between them all. So, say you’re
