@@ -21,7 +21,7 @@ free of errors.
 
 One issue you may encounter when dealing with Spreadsheets is files with different encoding. As with other text files, a CSV file has a character encoding that determines how characters are stored. The de facto standard today is to use Unicode (UTF-8), which supports all the alphabets of the world and lots of other characters like technical symbols and emojis. 
 
-Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having Excel or other spreadsheet application automatically open it), you can have unreadable data, and even possible data corruption. To avoid this issue, make sure to save your files as CSV UTF-8.
+Google sheets uses UTF-8 by deafult. Unfortunately, Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having Excel or other spreadsheet application automatically open it), you can have unreadable data, and even possible data corruption. To avoid this issue, make sure to save your files as CSV UTF-8.
 
 
 ## Validating data on input
