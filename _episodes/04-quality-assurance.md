@@ -19,13 +19,16 @@ free of errors.
 
 ## Spreadsheet Encoding
 
-One issue you may encounter when dealing with Spreadsheets is files with different encoding. As with other text files, a CSV file has a character encoding that determines how characters are stored. The de facto standard today is to use Unicode (UTF-8), which supports all the alphabets of the world and lots of other characters like technical symbols and emojis. Unfortunately, Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having Excel or other spreadsheet application automatically open it), you can have unreadable data, and even possible data corruption. To avoid this issue, make sure to save your files as CSV UTF-8.
+One issue you may encounter when dealing with Spreadsheets is files with different encoding. As with other text files, a CSV file has a character encoding that determines how characters are stored. The de facto standard today is to use Unicode (UTF-8), which supports all the alphabets of the world and lots of other characters like technical symbols and emojis. 
+
+Excel still exports CSV files using legacy character encodings like ASCII. If you select the wrong type of character encoding (often by double clicking on a .csv file and having Excel or other spreadsheet application automatically open it), you can have unreadable data, and even possible data corruption. To avoid this issue, make sure to save your files as CSV UTF-8.
 
 
 ## Validating data on input
 
 When we input data into a cell of a spreadsheet we are typically not constrained in the type of data we enter. But the wrong data type will result in future errors.  
-In any one column, the spreadsheets software will not warn us if we start to enter a mix of text, numbers or dates in different rows.
+
+In any one column, the spreadsheets software **will not** warn us if we start to enter a mix of text, numbers or dates in different rows.
 Even if we are not facing constraints from the software, as a researcher we often anticipate that all data in one column will be of a certain type.
 It is also possible that the nature of the data contained in the table allows us to place additional restrictions on the acceptable values for cells in a column. For example a column recording age in years should be numeric, greater than 0 and is unlikely to be greater than 120.
 
@@ -85,11 +88,6 @@ Let's say we want to determine that we will only accept integers for the column 
  
 This function is instructing Google Sheets to give you a test result if the G2 column has an integer number or not. If any decimal numbers are entered you will get a warning.
 
-> ## Optional Challenge
-> How could you expand this formula to only consider integers within a specific range (e.g., 0-9 rooms)?
-> **FIXME**
-{: .challenge}
-
 > ## Exercise
 > Apply a new data validation rule of your choice to one of the other numeric 
 > columns in this data table. Discuss with the person sitting next
@@ -144,7 +142,7 @@ If you type a value which is not on the list, you will get an error message. Thi
 > 
 > When using spreadsheets for data entry, it is a good idea to set up
 > data validation rules for each column when you set up your 
-> spreadsheet (i.e. before you enter any data). 
+> spreadsheet, in other words, before you enter any data. 
 {: .callout}
 
 
@@ -166,13 +164,18 @@ If you wish to inspect updates within a cell you may select the cell, then right
 
 ### Seeing the complete version history of the document
 
-You may also check version histories for the entire document by either clicking on the `Last edit` info displayed right next to `Help` on the top menu, or `File` then `Version History` and `See version histroy`. You can name versions to keep better track of the history. Note that this won't change the file name!
+You may also check versions for the entire document by either clicking on the `Last edit` info displayed right next to `Help` on the top menu, or `File` then `Version History` and `See version histroy`. You can name versions to keep better track of the history. Note that this won't change the file name!
 
 ### Setting up different permissions
 
+As in other programs from the Google office suite, when collaborating in a spreadsheet you may grant different access permissions (viewer, commenter and or editor) to each of the group members listed. If you click on the top gear icon you will be able to change some of the access levels within these categories. For example, you can disable the ability of editors to change permissions and share, limiting them to only contribute to the spreadsheet.
+
 ### Protecting Sheets and Ranges
+
+If you'd like to protect sheets or specific cells to be modified, even by people you have previously granted editor permission, you can accomplish that by selecting `Data` and then, `Protect sheets and range`. 
 
 ### Setting up to get notifications about changes
 
+You may also activate notifications to receive alerts for every comment or edit in the spreadsheet, by choosing `Notification settings` under `Tools`.   
 
-{% include links.md %}
+
