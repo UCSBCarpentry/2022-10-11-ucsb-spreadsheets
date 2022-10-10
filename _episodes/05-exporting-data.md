@@ -52,8 +52,6 @@ easily, although they may give you a warning during the file export.
 To export it as a CSV, choose `file`, then `download` and select the format.
 
 
-***FIXME*** ADD INFORMATION ABOUT TRACKING HISTORY?
-
 ## Working Off-line
 
 There might be cases researchers might be on the field and on remote locations and won't have stable or any connectivity to work with Google Sheets. The good news is that you can turn-on the offline access option to create, view, and edit files. 
@@ -94,7 +92,7 @@ There might be cases researchers might be on the field and on remote locations a
 {: .callout}
 
 
-> ## What to do when your data contain commas
+> ## What to do when your data contain commas?
 > 
 > In some datasets, the data values themselves may include commas (,). In that
 > case, you need to make sure that the commas are properly escaped when saving
