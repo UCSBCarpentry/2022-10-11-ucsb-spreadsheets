@@ -117,9 +117,7 @@ example data collected in January of multiple years with data collected in Febru
 
 > ## Default year
 >
-> Using the same spreadsheet you used for the previous exercise, add another data point
-> in the `interview_date` column by typing either `11/17` (if your location uses `MM/DD` formatting)
-> or `17/11` (if your location uses `DD/MM` formatting). The `Day`, `Month`, and `Year` columns
+> What happens if you type in another cell `11/17`? How should `Day`, `Month`, and `Year` columns
 > should populate for this new data point. What year is shown in the `Year` column?
 >
 > > ## Solution
