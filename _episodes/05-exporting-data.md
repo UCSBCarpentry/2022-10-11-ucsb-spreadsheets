@@ -16,8 +16,7 @@ keypoints:
 
 Storing the data you're going to work with for your analyses file formats such as `*.xls` or `*.xlsx` - isn't a good idea. Why?
 
-Even though `*.xls` or `*.xlsx` extensions are considered open standards (ECMA-376, ISO/IEC 29500), they are closely tied to the MS Office Excel application, and these files can contain lots of features that only interpreted by Excel. Also, more journals and grant agencies are requiring youto deposit your data in a data repository, and most of them require more reusable and interoperable formats such as CSV.
-  
+Even though `*.xls` or `*.xlsx` extensions are considered open standards (ECMA-376, ISO/IEC 29500), they are closely tied to the MS Office Excel application, and these files can contain lots of features that only interpreted by Excel.
   
 As an example of inconsistencies in data storage, do you remember how we talked about how spreasheet programs stores dates earlier? It turns out that 
 there are multiple defaults for different versions of the software, and you can switch between them all. So, say you’re
@@ -30,6 +29,7 @@ Storing data in a universal, open, and static format will help deal with this pr
 or TSV) or comma-delimited (comma separated values or CSV). CSV files are plain text files where the columns are separated by commas,
 hence 'comma separated values' or CSV. The advantage of a CSV file over an Excel/SPSS/etc. file is that we can open and read a CSV file
 using just about any software, including plain text editors like TextEdit or NotePad. 
+
 Data in a CSV file can also be easily imported into other formats and
 environments, such as SQLite and R. We're not tied to a certain version of a certain expensive program when we work with CSV files, so
 it's a
