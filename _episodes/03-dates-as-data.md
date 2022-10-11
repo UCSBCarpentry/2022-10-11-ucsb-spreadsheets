@@ -91,8 +91,6 @@ example data collected in January of multiple years with data collected in Febru
 > contains a subset of the data from the SAFI interviews, including the dates on which the
 > interviews were conducted. Make a copy and rename it with your last name (e.g., SAFI-dates-Curty), to ensure we will all be working on our individual copies of the file. 
 >
-> Choose the tab of the spreadsheet that corresponds to the way you format dates in your
-> location (either day first `DD_MM_YEAR`, or month first `MM_DD_YEAR`).
 >
 > Extract the components of the date to new columns. For this we
 > can use the built in functions:
