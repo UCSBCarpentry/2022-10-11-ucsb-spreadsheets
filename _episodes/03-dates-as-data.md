@@ -132,9 +132,9 @@ example data collected in January of multiple years with data collected in Febru
 > {: .solution}
 {: .challenge}
 
-## Proceed with Extra Caution when Dealing with Historical data
+## Proceed with Extra Caution when Dealing with Historical Dates
 
-In short, spreadsheet programs were not designed to operate historic data well. Google Sheets can't handle well dates prior to 1900-01-01. And Excel can't handle well anything prior to 1900-03-01 because they have considered 1900 a leap year, when in reality it is not! 
+In short, spreadsheet programs were not designed to operate historical dates well. Google Sheets can't handle well dates prior to 1900-01-01. And Excel can't handle well anything prior to 1900-03-01 because they have considered 1900 a leap year, when in reality it is not! 
 
 If you’re mixing historic data
 from before and after this date, it will translate only the post-1900 dates into its internal format, thus resulting in mixed data. If you’re working with historic data, be extremely careful with your dates!
