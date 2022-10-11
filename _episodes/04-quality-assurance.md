@@ -151,7 +151,7 @@ If you wish to inspect updates within a cell you may select the cell, then right
 
 ### Seeing the complete version history of the document
 
-You may also check versions for the entire document by either clicking on the `Last edit` info displayed right next to `Help` on the top menu, or `File` then `Version History` and `See version histroy`. You can name versions to keep better track of the history. Note that this won't change the file name!
+You may also check versions for the entire document by either clicking on the `Last edit` info displayed right next to `Help` on the top menu, or `File` then `Version History` and `See version history`. You can name versions to keep better track of them. Note that this won't change the file name!
 
 ### Setting up different permissions
 
