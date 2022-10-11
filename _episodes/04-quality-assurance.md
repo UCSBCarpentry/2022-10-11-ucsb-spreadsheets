@@ -45,10 +45,10 @@ We will be working with a couple of examples of data validation
 rules but many others exist. For an overview of data validation options and rules
 available in Google Sheets, check out the [support page on data validation](https://support.google.com/appsheet/answer/10107325?hl=en&ref_topic=10102053#:~:text=Data%20validation%20rules%20allow%20you,to%20constrain%20user%20entered%20values). 
 
-We will look at two examples: 
+We will look at three examples: 
 
 1. Restricting data to a numeric range
-2. Restricting data yo integers and integers within a range
+2. Restricting data to integers and integers
 3. Restricting data to entries from a list
 
 ### Restricting data to a numeric range
