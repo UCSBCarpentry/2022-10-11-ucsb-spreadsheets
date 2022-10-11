@@ -141,7 +141,9 @@ Google Sheets track changes don’t work like Google Docs which have a feature t
 - Protect sheets or data ranges from changes.
 - Set up to receive notifications when changes occur.
 
-Most of these features however, will be only enabled if the spreadsheet is native, or if the file is saved as Google Sheets. This means that some of the functions won't work if you open a .xls or .csv file you have uploaded to your drive. So, make sure, to check whether under `File`, you have the option `Save as Google Sheets`. If so, make sure to save it. In the next episode we will learn how to transform the file to other formats. 
+Most of these features however, will be only enabled if the spreadsheet is native, or if the file is saved as Google Sheets. This means that some of the functions won't work if you open a .xls or .csv file you have uploaded to your drive. So, make sure, to check whether under `File`, you have the option `Save as Google Sheets` (.Gsheet). If so (SAFI_dates is one example) make sure to save it. Do not worry about that extension for now. In the next episode we will learn how to transform the file to other formats. 
+
+Think about .Gsheet as a hyperlink, but instead of taking you to a specific website, it drops you directly into the Google Sheets document within your Drive. When you double-click on a Google Sheet in your Google Driver folder, it automatically opens a new browser tab or window with the document displayed in Drive
 
 ### Seeing the history of changes for a cell
 
