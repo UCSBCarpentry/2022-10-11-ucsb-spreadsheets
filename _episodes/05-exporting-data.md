@@ -36,47 +36,26 @@ it's a
 good format to work with for maximum portability and endurance. Most spreadsheet programs can save to delimited text formats like CSV
 easily, although they may give you a warning during the file export.
 
-To export it as a CSV, choose `file`, then `download` and select the format.
+To export files as CSV in Google Sheets, choose `file`, then `download` and select the format.
 
 
 ## Working Off-line
 
-There might be cases researchers might be on the field and on remote locations and won't have stable or any connectivity to work with Google Sheets. The good news is that you can turn-on the offline access option to create, view, and edit files. 
+There might be cases researchers will be on the field, working from remote locations, and won't have stable or any connectivity to work with Google Sheets. The good news is that you can turn-on the offline access option to create, view, and edit files. 
 
 *Before you turn on offline access:*
 
 - You must be connected to the internet.
 - You must use the Google Chrome or Microsoft Edge browser.
 - Don't use private browsing.
-- Install and turn on Google Docs Offline Chrome extension.
+- Install and turn on [Google Docs Offline Chrome extension](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi).
 - Make sure you have enough available space on your device to save your files.
-
 
 *How to turn on offline access:*
 
-- Open Google Drive.
-- At the top right, click Settings Settings and then Settings.
-- Turn on Offline setting. 
-- If you are using Microsoft Edge, you will be redirected to the Chrome Web Store to download the Google Docs Offline extension.
-- To work offline, open Google Sheets. 
-
-> ## Tips for working offline
-> You can turn on offline access from Sheets settings. If you turn on offline access for Sheets, all then Docs, Slides will also be available offline.
-> Alternatively, to turn on offline access, open any spreadsheet. At the top, next to the file title, click See document status Cloud done and then Turn on and then Turn on.
-> If you want to use offline access for another Google Account, make sure you're signed in to the right Chrome or Edge profile. Learn how to switch Chrome profiles. 
-{: .callout}
-
-
-> ## A note on R and `xls`
-> 
-> There are R packages that can read `xls` files (as well as
-> Google sheets .Gsheets). It is even possible to access different
-> worksheets in the `xls` documents. However, because these 
-> packages parse data tables from proprietary and non-static
-> software, there is no guarantee that they will continue to 
-> work on new versions. Exporting your data to CSV or TSV
-> format is much safer and more reproducible.
-{: .callout}
+Open Google Chrome or Microsoft Edge. If on Chrome, make sure you are signed into your account.
+Go to [drive.google.com/drive/settings](drive.google.com/drive/settings) or click on the gear icon on Google Drive, then Settings.
+Check the box next to "Create, open, and edit your recent Google Docs, Sheets, and Slides files on this device while offline."
 
 
 > ## What to do when your data contain commas?
