@@ -130,21 +130,6 @@ If you type a value which is not on the list, you will get an error message. Thi
 > You can also have different cells refer to the same table of acceptable inputs.
 {: .callout}
 
-> ## Tip
-> 
-> In the examples above we have applied data validation rules to
-> an existing spreadsheet to demonstrate how they work, however, 
-> you may have noticed that data validation rules are not applied
-> retroactively to data that is already present in the cell. 
-> This means, for example, that if we had already entered `150`
-> in the `no_membrs` column before applying our data validation
-> rule, that cell would not be flagged with a warning. 
-> 
-> When using spreadsheets for data entry, it is a good idea to set up
-> data validation rules for each column when you set up your 
-> spreadsheet, in other words, before you enter any data. 
-{: .callout}
-
 
 ## Tracking Changes and Protecting Sheets and Cells from Changing
 
